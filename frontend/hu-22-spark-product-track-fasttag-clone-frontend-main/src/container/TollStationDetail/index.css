@@ -1,0 +1,118 @@
+.toll-station-details-main{
+    width: 100%;
+    height: 95vh;
+    top: 20%;  
+    display: flex;
+    justify-content: left;
+    border: 1px solid black;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+
+.toll-station-details-content{
+    width: 100%;
+    display: inline;
+    position: relative;
+    text-align: center;
+    background-color: #f7f3f3;
+}
+
+.toll-station-details-prices-div{
+    height: 50%;
+}
+
+
+.toll-station-details-prices-details{
+   padding-top: 5%;
+}
+
+
+.toll-station-details-toll-price-header-wrap{
+    display: flex;
+    width: 75%;
+    margin-left: 15%;
+    padding-bottom: 0.5%;
+}
+
+.toll-station-details-toll-prices-heading{
+    width: 70%;
+    text-align: left;
+    display: inline-block;
+    padding: 2% 0%;
+    display:inline-block;
+    font-size: 3.5rem;
+}
+
+.toll-station-details-toll-price-button-div{
+    width: 30%;
+    padding-top: 2%;
+    text-align: right;
+}
+
+.toll-station-details-add-tollprice-btn{
+    width: 40%;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: 800;
+    outline: none;
+    background-color: white;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #60686e;
+    border-color: #6c757d;
+    border: 1px solid #e2e2e2;
+}
+
+.tollprice-add {
+    margin-right: 12%;
+}
+
+.toll-station-details-add-tollprice-btn:hover{
+    background-color: #148EFF;
+    color: white;
+}
+
+
+.toll-station-details-toll-prices-inner-div{
+    width: 75%;
+    height: 70%;
+    margin-left: 15%;
+    box-shadow: 0px 4px 20px -3px rgba(0, 0, 0, 0.25);
+    background-color: white;
+
+}
+
+.toll-station-details-container-grid{
+    display: grid;
+    grid-template-columns: 21% 30% 25% 27%;
+    column-gap: 1%;
+    border-bottom: 1px solid #c1bdbd;
+    align-items: center;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.toll-station-details-container-grid-header{
+    background-color: #F5F7FF;
+    color: #848abe; 
+}
+
+
+.toll-station-view-field{
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: left;
+    padding-left: 12%;
+}
+
+
+.toll-station-view-header-field {
+    font-weight: bolder;
+    font-size: 2rem;;
+
+
+}

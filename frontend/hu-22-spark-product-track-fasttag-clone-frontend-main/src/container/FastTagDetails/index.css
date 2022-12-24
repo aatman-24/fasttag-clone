@@ -1,0 +1,45 @@
+.fasttag-details-main{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    margin-right: 0.5%;
+    background-color: white;
+    text-align: left;
+    box-shadow: 0px 4px 20px -3px rgba(0, 0, 0, 0.25);
+}
+
+.fasttag-details-grid{  
+    display: grid;
+    grid-template-columns: 23% 23% 20% 15% 15%;
+    column-gap: 1%;
+    border-bottom: 1px solid #c1bdbd;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.fasttag-details-header{
+    background-color: #F5F7FF;
+    color: #848abe;
+    font-weight: 900;
+    padding-left: 1.5%;
+}
+
+
+.fasttag-details-field{
+    margin-left: 5%;
+    font-weight: 200;
+}
+
+.fasttag-details-reachragebutton{
+  background-color: #e1e5f8;
+  border: 1px solid #c1bdbd;
+}
+
+.page{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}

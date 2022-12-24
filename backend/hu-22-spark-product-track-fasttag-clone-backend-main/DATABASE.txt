@@ -1,0 +1,17 @@
+[command]/home/runner/work/_temp/3cd1e466-80f7-4c5b-9451-404bcad1d547/terraform-bin output
+db_instance_name = "huex-mysql"
+db_name = "fasttag-clone"
+db_password = "{+cQBNi1lqy$8NaN"
+db_port = "3306"
+db_private_ip = "10.109.178.47"
+db_username = "fasttag-clone-user"
+::debug::Terraform exited with code 0.
+::debug::stdout: db_instance_name = "huex-mysql"%0Adb_name = "fasttag-clone"%0Adb_password = "{+cQBNi1lqy$8NaN"%0Adb_port = "3306"%0Adb_private_ip = "10.109.178.47"%0Adb_username = "fasttag-clone-user"%0A
+::debug::stderr: 
+::debug::exitcode: 0
+
+::set-output name=stdout::db_instance_name = "huex-mysql"%0Adb_name = "fasttag-clone"%0Adb_password = "{+cQBNi1lqy$8NaN"%0Adb_port = "3306"%0Adb_private_ip = "10.109.178.47"%0Adb_username = "fasttag-clone-user"%0A
+
+::set-output name=stderr::
+
+::set-output name=exitcode::0

@@ -1,0 +1,169 @@
+.toll-station-details{
+    width: 850px;
+    height: 500px;
+    background-color: #AAAAAA;
+
+    margin-left: 450px;
+    margin-top: 80px;
+
+    border-radius: 20px;
+}
+
+
+.toll-station-inner-div{
+    
+    width: 950px;
+    height: 400px;
+
+    /* display: flex;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: 45% 40%;
+
+    padding-top: 1px;
+    padding-left: 40px;
+}
+
+
+.left-div-1, .right-div-2{
+    
+    width: 350px;
+    height: 350px;
+    background-color: #FFE2E2;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.toll-station-heading{
+    float: left;
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+
+.enteries{
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-bottom: 10px;
+}
+
+.enteries-para{
+    color: #626262;
+    font-weight: 600;
+}
+
+.enteries-heading{
+    color: #000000;
+    font-weight: 600;
+}
+
+
+
+
+
+.toll-prices-details{
+
+    width: 850px;
+    height: 500px;
+    background-color: #FFFFD2;
+
+    margin-left: 450px;
+    margin-top: 40px;
+
+    border-radius: 20px;
+}
+
+
+.toll-prices-heading{
+    float: left;
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+
+.add-tollprice-btn{
+    
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 800;
+    outline: none;
+    border: 2px solid black;
+
+    /* background-color: #3b98e4;
+    color: white; */
+
+    background-color: white;
+    color: black;
+
+    margin-top: 20px;
+    margin-left: 430px;
+
+}
+
+.add-tollprice-btn:hover{
+    background-color: #148EFF;
+    color: white;
+}
+
+
+.toll-prices-inner-div{
+
+    width: 800px;
+    height: 350px;
+    background-color: #AA96DA;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.heading-container-1{
+
+    display: grid;
+    grid-template-columns: 21% 30% 25% 27%;
+}
+
+.vehicle-heading, .single-heading, .return-heading, .daily-heading{
+    
+    color: white;
+    font-weight: 500;
+    word-break: keep-all;
+    /* margin-left: 22px; */
+}
+
+
+.enteries-prices{
+
+    display: grid;
+    grid-template-columns: 20% 30% 25% 28%;
+    width: 780px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+
+    background-color: #D4EAFF;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    padding-top: 100px;
+}
+
+.footer-para{
+    font-weight: 300;
+}
+
+

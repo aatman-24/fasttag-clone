@@ -1,0 +1,115 @@
+.signup-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: 	rgb(64,64,64); */
+
+    background-image: url(../../static/FastTagWorking-2-44.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.signup-form {
+    width: 31%;
+    height: 70%;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-right: 0%;
+    margin-top: 8%;
+    padding: 1%;
+    padding-bottom: 8%;
+}
+
+.signup-Head {
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.signup-tagline {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-right: 10px;
+
+}
+
+.signup-register{
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    color: rgb(104,104,104);
+    font-size: larger;
+}
+
+
+.login{
+    font-size: larger;
+}
+
+
+.signup-textField {
+    width: 88%;
+    color: rgb(104,104,104);
+}
+
+
+.signup-textField-email, .signup-textField-phone{
+
+    width: 94%;
+    color: rgb(104,104,104);
+}
+
+
+
+#signup-submitButton {
+    width: 94%; 
+    height: 5vh;
+    color: white;
+    background-color: black;
+    /* background-color: #13d1b1; */
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+
+.signup-login{
+    font-size: 1.5rem;
+}
+
+.signup-fastag-logo-1{
+    border-radius: 5%;
+    width: 55%;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+}
+
+
+.errors-signup{
+    color: red;
+}
+
+
+
+.email-box, .phone-number-box{
+    width: 100%;
+    padding-top: 1.4rem;
+    padding-left: 1.6rem;
+}
+
+
+
+/* .signup-register {
+
+} */
+
+.signup-signinSuccess{
+    font-size: 1.5rem;
+}
