@@ -49,7 +49,7 @@ public class CardControllers {
         return response;
     }
 
-    //I think this api will be hit from the node-red server....
+
     @RequestMapping(value = "/user/deduct-balance", method = RequestMethod.POST)
     @PreAuthorize("hasRole('Admin')")
     public Response<BalanceDto> deductBalance(@RequestBody DeductBalanceDto deductBalanceDto){
